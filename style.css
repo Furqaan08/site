@@ -931,3 +931,37 @@ img {
   height: auto;
   display: block;
 }
+/* ===== HARD FIX FOR IMAGE OVERFLOW ===== */
+
+/* Force all sections to respect boundaries */
+section,
+div {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Lock image containers */
+.coach-image-wrapper,
+.image-wrapper,
+.image-box,
+.left-image,
+.right-image {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Force image to stay inside */
+.coach-image-wrapper img,
+.image-wrapper img,
+.image-box img,
+.left-image img,
+.right-image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
