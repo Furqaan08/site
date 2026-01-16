@@ -1,0 +1,2 @@
+# site
+Static business website
