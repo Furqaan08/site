@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const coachImageWrapper = document.querySelector('.coach-image-wrapper');
   if (coachImageWrapper) {
     coachImageWrapper.style.opacity = '0';
-    coachImageWrapper.style.transform = 'translateX(-30px)';
+    coachImageWrapper.style.transform = 'translateY(-30px)';
     coachImageWrapper.style.transition = 'opacity 0.8s ease 0.2s, transform 0.8s ease 0.2s';
     observer.observe(coachImageWrapper);
   }
