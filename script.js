@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const coachContent = document.querySelector('.coach-content');
   if (coachContent) {
     coachContent.style.opacity = '0';
-    coachContent.style.transform = 'translateY(30px)';
+    coachContent.style.transform = 'translateX(30px)';
     coachContent.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
     observer.observe(coachContent);
   }
