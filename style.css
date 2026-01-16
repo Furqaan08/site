@@ -926,3 +926,8 @@ a {
 .footer-phone:hover {
   color: var(--gold);
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
